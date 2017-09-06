@@ -1,0 +1,382 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = arty
+Directory = Z:/20170720_arty/Arty/Vivado/arty
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<arty_processing_system7_0_0_synth_1>
+<arty_proc_sys_reset_1_0_synth_1>
+<arty_xlconcat_0_0_synth_1>
+<arty_proc_sys_reset_0_0_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<arty_proc_sys_reset_0_0>
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+
+<arty_proc_sys_reset_1_0>
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+
+<arty_processing_system7_0_0>
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_0.vh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_0_macros.svh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_constants.vh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_structs.svh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/sc_util_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/abae/hdl/axi_protocol_checker_v1_1_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_1_axi4pc.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_local_params.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_params.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_init.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_apis.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_unused_ports.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_gp.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_acp.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_hp.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_aw_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_b_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_w_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+
+<arty_xlconcat_0_0>
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/73b7/hdl/xlconcat_v2_1_vl_rfs.v
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_0.vh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_0_macros.svh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_constants.vh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_structs.svh
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/sc_util_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/abae/hdl/axi_protocol_checker_v1_1_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_1_axi4pc.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_local_params.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_params.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_init.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_apis.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_unused_ports.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_gp.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_acp.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_hp.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_aw_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_b_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_w_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_atc.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+c:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-5344-XKKYOSHIOT33/PrjAr/_X_/arty.srcs/sources_1/bd/arty/ipshared/73b7/hdl/xlconcat_v2_1_vl_rfs.v
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./arty.srcs/sources_1/bd/arty/arty.bd
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.xci
+./arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_0.vh
+./arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_0_macros.svh
+./arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_constants.vh
+./arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_structs.svh
+./arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/sc_util_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/abae/hdl/axi_protocol_checker_v1_1_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_1_axi4pc.sv
+./arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_local_params.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_params.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_init.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_apis.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_unused_ports.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_gp.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_acp.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_hp.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/sim/arty_processing_system7_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/hdl/verilog/arty_processing_system7_0_0.hwdef
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.c
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.h
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init_gpl.c
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init_gpl.h
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.tcl
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.html
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_aw_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_b_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_w_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/synth/arty_processing_system7_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.xml
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.xci
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_board.xdc
+./arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/sim/arty_proc_sys_reset_0_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/synth/arty_proc_sys_reset_0_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_ooc.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.xml
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.xci
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_board.xdc
+./arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/sim/arty_proc_sys_reset_1_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/synth/arty_proc_sys_reset_1_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_ooc.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.xml
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0.xci
+./arty.srcs/sources_1/bd/arty/ipshared/73b7/hdl/xlconcat_v2_1_vl_rfs.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/sim/arty_xlconcat_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/synth/arty_xlconcat_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0.xml
+./arty.srcs/sources_1/bd/arty/hdl/arty.v
+./arty.srcs/sources_1/bd/arty/arty_ooc.xdc
+./arty.srcs/sources_1/bd/arty/hw_handoff/arty.hwh
+./arty.srcs/sources_1/bd/arty/hw_handoff/arty_bd.tcl
+./arty.srcs/sources_1/bd/arty/hdl/arty.hwdef
+./arty.srcs/sources_1/bd/arty/hdl/arty_wrapper.v
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<arty_processing_system7_0_0>
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.xci
+./arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_0.vh
+./arty.srcs/sources_1/bd/arty/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_0_macros.svh
+./arty.srcs/sources_1/bd/arty/ipshared/2ad9/hdl/xil_common_vip_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_constants.vh
+./arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/verilog/sc_util_v1_0_2_structs.svh
+./arty.srcs/sources_1/bd/arty/ipshared/16a2/hdl/sc_util_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/abae/hdl/axi_protocol_checker_v1_1_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_1_axi4pc.sv
+./arty.srcs/sources_1/bd/arty/ipshared/7cd5/hdl/axi_vip_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_local_params.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_params.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_reg_init.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_apis.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_unused_ports.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_gp.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_acp.v
+./arty.srcs/sources_1/bd/arty/ipshared/d5eb/hdl/processing_system7_vip_v1_0_0_axi_hp.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/sim/arty_processing_system7_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/hdl/verilog/arty_processing_system7_0_0.hwdef
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.c
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.h
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init_gpl.c
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init_gpl.h
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.tcl
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/ps7_init.html
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_aw_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_b_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_w_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_atc.v
+./arty.srcs/sources_1/bd/arty/ipshared/8e93/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/synth/arty_processing_system7_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_processing_system7_0_0/arty_processing_system7_0_0.xml
+
+<arty_proc_sys_reset_1_0>
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.xci
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_board.xdc
+./arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/sim/arty_proc_sys_reset_1_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/synth/arty_proc_sys_reset_1_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0_ooc.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_1_0/arty_proc_sys_reset_1_0.xml
+
+<arty_xlconcat_0_0>
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0.xci
+./arty.srcs/sources_1/bd/arty/ipshared/73b7/hdl/xlconcat_v2_1_vl_rfs.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/sim/arty_xlconcat_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/synth/arty_xlconcat_0_0.v
+./arty.srcs/sources_1/bd/arty/ip/arty_xlconcat_0_0/arty_xlconcat_0_0.xml
+
+<arty_proc_sys_reset_0_0>
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.xci
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_board.xdc
+./arty.srcs/sources_1/bd/arty/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/sim/arty_proc_sys_reset_0_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.dcp
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_stub.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_stub.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_sim_netlist.v
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_sim_netlist.vhdl
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/synth/arty_proc_sys_reset_0_0.vhd
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0_ooc.xdc
+./arty.srcs/sources_1/bd/arty/ip/arty_proc_sys_reset_0_0/arty_proc_sys_reset_0_0.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<arty_processing_system7_0_0>
+None
+
+<arty_proc_sys_reset_1_0>
+None
+
+<arty_xlconcat_0_0>
+None
+
+<arty_proc_sys_reset_0_0>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./arty/vivado.jou
+
+Source File = C:/Users/shigeru/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./arty/vivado.log
+

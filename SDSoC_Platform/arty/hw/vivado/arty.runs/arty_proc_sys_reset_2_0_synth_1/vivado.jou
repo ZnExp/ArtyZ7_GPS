@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1_sdx (64-bit)
+# SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+# IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+# Start of session at: Fri Sep  1 11:25:19 2017
+# Process ID: 3496
+# Current directory: Z:/20170720_arty/Arty/Vivado/arty/arty.runs/arty_proc_sys_reset_2_0_synth_1
+# Command line: vivado.exe -log arty_proc_sys_reset_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source arty_proc_sys_reset_2_0.tcl
+# Log file: Z:/20170720_arty/Arty/Vivado/arty/arty.runs/arty_proc_sys_reset_2_0_synth_1/arty_proc_sys_reset_2_0.vds
+# Journal file: Z:/20170720_arty/Arty/Vivado/arty/arty.runs/arty_proc_sys_reset_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source arty_proc_sys_reset_2_0.tcl -notrace

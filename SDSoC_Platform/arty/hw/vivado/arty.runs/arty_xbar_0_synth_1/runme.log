@@ -1,0 +1,17 @@
+
+*** Running vivado
+    with args -log arty_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source arty_xbar_0.tcl
+
+
+
+****** Vivado v2017.1_sdx (64-bit)
+  **** SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+  **** IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1460] Use of init.tcl in C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl'
+0 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+source arty_xbar_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP arty_xbar_0, cache-ID = 43e93df926236a96.

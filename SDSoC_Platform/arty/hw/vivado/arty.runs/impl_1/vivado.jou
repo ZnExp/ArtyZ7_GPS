@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1_sdx (64-bit)
+# SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+# IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+# Start of session at: Fri Sep  1 18:01:44 2017
+# Process ID: 3892
+# Current directory: Z:/20170720_arty/Arty/Vivado/arty_uart1/arty.runs/impl_1
+# Command line: vivado.exe -log arty_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source arty_wrapper.tcl -notrace
+# Log file: Z:/20170720_arty/Arty/Vivado/arty_uart1/arty.runs/impl_1/arty_wrapper.vdi
+# Journal file: Z:/20170720_arty/Arty/Vivado/arty_uart1/arty.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source arty_wrapper.tcl -notrace
